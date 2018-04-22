@@ -1,0 +1,23 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+   {
+      "key": "ctrl+q ctrl+q",
+      "command": "quokka.makeQuokkaFromExistingFile",
+      "when": "!terminalFocus"
+   },
+   {
+      "key": "ctrl+k q",
+      "command": "-quokka.makeQuokkaFromExistingFile",
+      "when": "!terminalFocus"
+   },
+   {
+      "key": "ctrl+c",
+      "command": "editor.action.clipboardCopyAction",
+      "when": "editorTextFocus"
+   },
+   {
+      "key": "ctrl+c",
+      "command": "-editor.action.clipboardCopyAction",
+      "when": "editorTextFocus"
+   }
+]
